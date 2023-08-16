@@ -1,0 +1,70 @@
+#third {
+  position: relative;
+}
+#bottle {
+  position: absolute;
+  height: 700px;
+  top: 68px;
+  left: 5px;
+  z-index: 3;
+}
+.logo {
+  position: relative;
+  margin-top: 145px;
+  margin-left: 25px;
+}
+#move {
+  position: absolute;
+  left: -6px;
+}
+#mainMes {
+  font-size: 30px;
+}
+.brend {
+  font-size: 96px;
+}
+.info {
+  padding-left: 215px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#bigBlock,
+#smallBlock {
+  background-color: white;
+  border-radius: 40px;
+  font-size: 24px;
+  padding: 20px;
+  padding-top: 45px;
+}
+#bigBlock {
+  box-shadow: 5.446px 8.387px 6.5px 6.5px rgba(157, 185, 198, 0.39);
+  position: relative;
+  padding-left: 135px;
+  height: 263px;
+  width: 390px;
+  margin-right: 35px;
+  z-index: 1;
+}
+#smallBlock {
+  box-shadow: 5.446px 8.387px 6.5px 6.5px rgba(157, 185, 198, 0.39);
+  position: relative;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 35px;
+  padding-left: 35px;
+}
+#moreBtn {
+  height: 77px;
+}
+#dish {
+  position: absolute;
+  height: 60px;
+  top: -30px;
+}
+#calendar {
+  position: absolute;
+  height: 60px;
+  top: -25px;
+}
