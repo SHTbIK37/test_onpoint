@@ -9,13 +9,13 @@
   position: relative;
 }
 #first {
-  background-image: url(/src/bg1.png);
+  background-image: url(./src/bg1.png);
 }
 #second {
-  background-image: url(/src/bg2.png);
+  background-image: url(./src/bg2.png);
 }
 #third {
-  background-image: url(/src/bg3.png);
+  background-image: url(./src/bg3.png);
 }
 #first,
 #second,
