@@ -38,10 +38,10 @@
       <span class="indication"></span>
     </div>
     <div class="navArrows" onclick="side_slide(-1)">
-      <img class="arrow" src="/src/arrowPrev.png" alt="" id="arrowLeft" />
+      <img class="arrow" src="./src/arrowPrev.png" alt="" id="arrowLeft" />
     </div>
     <div class="navArrows right" onclick="side_slide(1)">
-      <img class="arrow" src="/src/arrowNext.png" alt="" id="arrowNext" />
+      <img class="arrow" src="./src/arrowNext.png" alt="" id="arrowNext" />
     </div>
   </div>
   </div>`;
@@ -53,8 +53,8 @@
     const closeImg = document.createElement("img");
     const sliderJs = document.createElement("script");
     sliderJs.id = "sliderJs";
-    sliderJs.src = "/slider.js";
-    closeImg.src = "/src/closeBtn.png";
+    sliderJs.src = "./slider.js";
+    closeImg.src = "./src/closeBtn.png";
     closeBtn.appendChild(closeImg);
     moreInfo.appendChild(closeBtn);
     moreInfo.className = "moreInfo";
